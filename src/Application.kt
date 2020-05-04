@@ -38,7 +38,7 @@ fun Application.module(testing: Boolean = false) {
         header(HttpHeaders.Authorization)
         header("MyCustomHeader")
         allowCredentials = true
-        anyHost() // @TODO: Beware of this risk, and try to limit it!
+        anyHost() // FIXME: Beware of this risk, and try to limit it!
     }
 
     install(Authentication) {

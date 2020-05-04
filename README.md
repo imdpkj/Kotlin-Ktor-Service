@@ -162,7 +162,7 @@ curl --request GET \
 ### Counter Next
 Increment value of counter by 1
 
-**URL** : `/counter/current`
+**URL** : `/counter/next`
 
 **Method** : `PUT`
 
